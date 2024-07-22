@@ -1,0 +1,59 @@
+/* General Styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Flexbox Container for the Whole Page */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header Styles */
+header {
+  background-color: #443a98;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main Content Area */
+main {
+  display: flex;
+  flex: 1;
+}
+
+/* Section and Aside Styles */
+section {
+  flex: 3;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+aside {
+  flex: 1;
+  padding: 20px;
+  background-color: #ddd;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Additional Styles for Lists and Text */
+ol, ul {
+  padding: 10px;
+  margin: 10px 0;
+}
+
+ol li, ul li {
+  margin-bottom: 5px;
+}
